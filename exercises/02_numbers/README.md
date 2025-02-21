@@ -2,12 +2,12 @@
 
 As a reminder, to complete this exercise:
 
-* [ ] Read this file to understand the theory being tested, and what
+- [x] Read this file to understand the theory being tested, and what
       task you will be asked to complete.
-* [ ] Try and complete the `main.rs` file.
-* [ ] Test to see if your macro creates the same code we have; using
+- [x] Try and complete the `main.rs` file.
+- [x] Test to see if your macro creates the same code we have; using
       `cargo run -- test 02_numbers`.
-* [ ] Run your code, using `cargo run --bin 02_numbers`, to see what it does.
+- [x] Run your code, using `cargo run --bin 02_numbers`, to see what it does.
 
 ## Macros With Arguments
 
@@ -22,8 +22,7 @@ is the bit in each rule before the `=>`.
 Below we see a macro which will replace itself with `true` if the letter `t` is
 inside the brackets; and `f` otherwise.
 
-
-``` rust
+```rust
 macro_rules! torf {
     (t) => {
         true
@@ -45,7 +44,7 @@ transcriber block.
 
 Macros are very similar to a `match` statement because they find the first match
 and take action based on that; but it's important to note that you're not matching
-on *variables*, you're matching on tokens.
+on _variables_, you're matching on tokens.
 
 ## But what is a "token"
 
@@ -78,6 +77,7 @@ following:
 
 <!-- If you can see this text, it means you're not looking at the book.   -->
 <!-- Run the cargo command below (without `cmdrun`) to see the real code. -->
+
 ```rust,ignore
 <!-- cmdrun cargo run -- goal 02_numbers -->
 ```
