@@ -3,13 +3,12 @@
 Welcome to this introduction to Rust's Macro system.
 To complete each exercise (including this one), you should:
 
-* [ ] Read this file to understand the theory being tested, and what
+- [x] Read this file to understand the theory being tested, and what
       task you will be asked to complete.
-* [ ] Try and complete the `main.rs` file.
-* [ ] Test to see if your macro creates the same code we have, using
+- [x] Try and complete the `main.rs` file.
+- [x] Test to see if your macro creates the same code we have, using
       `cargo run -- test 01_my_first_macro`.
-* [ ] Run your code, using `cargo run --bin 01_my_first_macro`, to see what it does.
-
+- [x] Run your code, using `cargo run --bin 01_my_first_macro`, to see what it does.
 
 ## What are Macros?
 
@@ -76,7 +75,6 @@ what Rust will replace `my_macro!()` with.
 
 So, `my_macro!()` will be replaced by `3`.
 
-
 ## Exercise 1: My First Macro
 
 Your task is to write a macro named `show_output!()` which calls the
@@ -87,6 +85,7 @@ following:
 
 <!-- If you can see this text, it means you're not looking at the book.   -->
 <!-- Run the cargo command below (without `cmdrun`) to see the real code. -->
+
 ```rust,ignore
 <!-- cmdrun cargo run -- goal 01_my_first_macro -->
 ```
